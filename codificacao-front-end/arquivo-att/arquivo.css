@@ -1,0 +1,29 @@
+.container{
+    width: 500px;
+    height: 500px;
+    background-color: aqua;
+    border: 2px solid black;
+    display: flex;
+}
+
+.item1{
+    width: 150px;
+    height: 150px;
+    background-color: coral;
+    border: 2px solid black;
+    word-wrap: break-word;
+}
+
+.item2{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(255, 80, 89);
+    border: 2px solid black;
+}
+
+.item3{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(185, 114, 6);
+    border: 2px solid black;
+}
