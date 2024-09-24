@@ -1,0 +1,36 @@
+.root{
+--Green: hsl(75, 94%, 57%);
+--White: hsl(0, 0%, 100%);
+--Grey-7: hsl(0, 0%, 20%);
+--Grey-8: hsl(0, 0%, 12%);
+--Grey-9: hsl(0, 0%, 8%);
+}
+
+body{
+    background-color:black;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container-geral{
+background-color: rgb(49, 42, 42);
+width: 800px;
+height: 500px;
+text-align: center;
+display: flex;
+align-items: center;
+flex-direction: flex-start;
+padding-top: 40px;
+border-radius: 15px;
+display: flex;
+}
+
+.imagem{
+    border-radius: 200px;
+}
+
+.titulo{
+    color: var(--White);
+}
